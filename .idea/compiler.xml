@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gmall1205-common" />
+        <module name="gmall1205-loggerwlh" />
+        <module name="gmall1205-mock" />
+        <module name="gmall1205-realtime" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gmall1205-common" target="1.8" />
+      <module name="gmall1205-logger" target="1.8" />
+      <module name="gmall1205-loggerwlh" target="1.8" />
+      <module name="gmall1205-mock" target="1.8" />
+      <module name="gmall1205-parent" target="1.8" />
+      <module name="gmall1205-realtime" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
